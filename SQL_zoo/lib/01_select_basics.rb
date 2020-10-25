@@ -98,7 +98,7 @@ def just_the_right_size
    #inclusive.
   execute(<<-SQL)
     SELECT
-      name, area/1000 AS area_in_1000's_of_square_kilometers
+      name, area/1000 AS area_in_1000s_of_square_kilometers
     FROM
       countries
     WHERE
